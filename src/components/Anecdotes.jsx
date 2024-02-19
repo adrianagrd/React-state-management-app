@@ -19,7 +19,6 @@ export const Anecdotes = ({ anecdotes }) => {
 
   return (
     <div>
-      <h2>Anecdotes</h2>
       {anecdotes[selected]}
       <p>Have {votes[selected]} total votes</p>
       <button onClick={handleVoteClick}>Vote</button>
